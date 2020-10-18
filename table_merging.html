@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+    initial-scale=1.0"
+    />
+    <title>Table Merging</title>
+  </head>
+  <body>
+    <h3>Table Merging</h3>
+    <table border="1px">
+      <tr>
+        <th style="background-color: orange">
+          NIK
+        </th>
+        <th style="background-color: orange">
+          Nama
+        </th>
+        <th style="background-color: orange">
+          Jabatan
+        </th>
+      </tr>
+      <tr>
+        <td>17575</td>
+        <td>Andi</td>
+        <td>Product Designer</td>
+      </tr>
+      <tr>
+        <td>15788</td>
+        <td>Ali Mukti</td>
+        <td>Android Developer</td>
+      </tr>
+      <tr>
+        <td>18555</td>
+        <td>Teguh</td>
+        <td>UX Research</td>
+      </tr>
+    </table>
+
+    <h3>Contoh Penggunaan Colspan</h3>
+    <table border="1px">
+      <tr>
+        <th style="background-color: orange">NIK</th>
+        <th colspan="2" style="background-color: orange">Nama & Jabatan</th>
+      </tr>
+      <tr>
+        <td>17575</td>
+        <td>Andi</td>
+        <td>Product Designer</td>
+      </tr>
+      <tr>
+        <td>15788</td>
+        <td>Ali Mukti</td>
+        <td>Android Developer</td>
+      </tr>
+      <tr>
+        <td>18555</td>
+        <td>Teguh</td>
+        <td>UX Research</td>
+      </tr>
+    </table>
+
+    <h3>Contoh Penggunaan Rowspan</h3>
+    <table border="1px">
+      <tr>
+        <th style="background-color: orange">NIK</th>
+        <th style="background-color: orange">Nama</th>
+        <th style="background-color: orange">Jabatan</th>
+      </tr>
+      <tr>
+        <td rowspan="3">
+          17575 <br />
+          15788 <br />
+          18555
+        </td>
+        <td>Andi</td>
+        <td>Product Designer</td>
+      </tr>
+      <tr>
+        <td>Ali Mukti</td>
+        <td>Android Developer</td>
+      </tr>
+      <tr>
+        <td>Teguh</td>
+        <td>UX Research</td>
+      </tr>
+    </table>
+  </body>
+</html>
