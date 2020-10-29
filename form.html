@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+   initial-scale=1.0"
+    />
+    <title>Membuat Form Pada HTML</title>
+  </head>
+  <body>
+    <h3>Membuat Form Pada HTML</h3>
+    <form>
+      <!-- Input -->
+      <!-- Label -->
+      <label >Nama Lengkap</label> <br>
+      <input type="text" 
+        placeholder="Nama Lengkap" /> <br />
+      <br />
+      <label >Email</label> <br>
+      <input type="email" name="email"
+       placeholder="Email" /> 
+      <br />
+      <br />
+      <label >Password</label> <br>
+      <input type="password" 
+      name="sandi" placeholder="Sandi" /> 
+      <br> <br>
+      <!-- Text Area -->
+      <textarea  cols="10" rows="5" >
+      </textarea> <br>
+
+      <!-- Penggunaan Select -->
+      <label >Pilih Program Studi</label>
+        <select name="matakuliah" >
+          <option value="informatika">Teknik 
+            Informatika
+      </option>
+      <option value="informatika">Pend Matematika
+      </option>
+      <option value="informatika">Pend Fisika
+      </option>
+      <option value="informatika">Teknik Industri
+      </option> 
+        </select> <br> <br>
+
+        <!-- Penggunaan Button -->
+        <button style="background-color: blue;" type="submit">
+           <a href="login.html"> Login
+        </button></a>
+
+        <!-- Input Type Radio -->
+        <h4>Pilih Jenis Kelamin ?</h4> 
+        <input type="radio" name="kelamin" id="lakilaki">
+        <label for="male">Laki-Laki</label> <br>
+        <input type="radio" name="kelamin" id="wanita">
+        <label for="female">Wanita</label> <br>
+        <input type="radio" name="kelamin" id="setengah">
+        <label for="shemale">Setengah-Setengah</label> <br>
+        
+           <!-- Input Type Checbox -->
+           <h4>Pilih Mata Kuliah ?</h4> 
+           <input type="checkbox" name="lakilaki" id="lakilaki">
+           <label >UI/UX Design</label> <br>
+           <input type="checkbox" name="wanita" id="wanita">
+           <label >Design Thinking</label> <br>
+           <input type="checkbox" name="setengah" id="setengah">
+           <label >UX Research</label> <br> <br>
+
+           <!-- Submit -->
+           <input type="submit" value="daftar">
+    </form>
+  </body>
+</html>
