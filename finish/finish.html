@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,
-    initial-scale=1.0"
-    />
-    <title>Rangkuman Seri HTML Basic</title>
-  </head>
-  <body>
-    <!-- Akhir Dari Tutorial HTML Basic -->
-    <h1>Rangkuman Materi Seri HTML Basic/Finish</h1>
-    <p>Ini <strong> adalah </strong>sebuah
-       <em> paragraf</em></p>
-       <!-- Tag Link -->
-    <p>
-        Saya Sedang Belajar HTML Basic dari
-      <a 
-      href="https://www.youtube.com/KelasCoding"
-        target="blank">
-       Kelas Coding
-      </a> dan akan terbuka pada tab baru
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+  content="width=device-width, 
+  initial-scale=1.0">
+  <title>Rangkuman Seri HTML Basic</title>
+</head>
+<body>
+  <!-- Akhir Dari Tutorial HTML Basic -->
+    <h1>Rangkuman Materi Seri HTML Basic</h1>
+    <p>Ini <strong> adalah </strong>
+       sebuah <em> paragraf</em>
     </p>
-    <!-- tag image -->
+    <!-- Tag Link -->
+    <p>Saya Sedang Belajar HTML Basic dari
+       <a 
+        href="https://www.youtube.com/KelasCoding" 
+        target="_blank" >Kelas Coding</a> 
+      dan akan membuka pada tab baru
+    </p>
+    <!-- Tag Image -->
     <img src="../img/Kelas Coding 3.png" 
-    alt="logo kelas coding" width="200px" >
-    <!-- tag list -->
+    alt="logo kelas coding" width="200px">
+    <!-- Tag List -->
     <h2>Daftar Warna</h2>
     <ol>
       <li>Orange</li>
@@ -35,79 +32,81 @@
       <li>Black</li>
       <li>Yellow</li>
     </ol>
-    <!-- table tag -->
+    <!-- tag Table -->
     <table border="1px">
-      <tr>
-       <th>Nama</th>
-       <th>Kelas</th>
-       <th>Program Studi</th>
-       <th>Mata Kuliah</th>
-      </tr>
-      <tr>
-        <td>Andi</td>
-        <td>X7A</td>
-        <td>Teknik Industri</td>
-        <td>Kalkulus</td>
-      </tr>
-      <tr>
-        <td>Alfian</td>
-        <td>R46</td>
-        <td>Teknik Sipil</td>
-        <td>Kerangka Jembatan</td>
-      </tr>
-      <tr>
-        <td>Prasetyo</td>
-        <td>S7Z</td>
-        <td>Desain Komunikasi Visual</td>
-        <td>UX Writer</td>
-      </tr>
+        <tr>
+          <th>Nama</th>
+          <th>Kelas</th>
+          <th>Program Studi</th>
+          <th>Mata Kuliah</th>
+        </tr>
+        <tr>
+          <td>Andi</td>
+          <td>X7A</td>
+          <td>Teknik Industri</td>
+          <td>Kalkulus</td>
+        </tr>
+        <tr>
+          <td>Alfian</td>
+          <td>R46</td>
+          <td>Teknik Sipil</td>
+          <td>Kerangka Jembatan</td>
+        </tr>
+        <tr>
+          <td>Prasetyo</td>
+          <td>S7Z</td>
+          <td>Desain Komunikasi Visual</td>
+          <td>UX Writer</td>
+        </tr>
     </table> <br>
-    <!-- form tag -->
-    <form action="finish.html" >
+    <!-- form Tag -->
+    <form action="finish.html">
+      <!-- input nama dan password  -->
       <label >Nama : </label>
-      <input type="text" name="nama"
-       placeholder="input your name"> <br>
+      <input type="text" name="nama" 
+        placeholder="masukkan nama anda"> <br>
       <label >Password : </label>
       <input type="password" name="password" 
-      placeholder="masukkan password"> <br>
+          placeholder="masukkan password anda"> <br>
       <!-- input jenis kelamin -->
       <label >Jenis Kelamin : </label>
       <input type="radio" name="kelamin">
       <label >Laki-Laki</label>
-      <input type="radio" name="kelamin">
+      <input type="radio" name="kelamin" >
       <label >Perempuan</label>
       <input type="radio" name="kelamin">
       <label >Shemale</label> <br>
-      <!-- pilih checkbox hobi -->
-      <label >Hobi: </label>
-      <input type="checkbox" name="hobi">
-      <label >Baca Buku</label>
+      <!-- pilih hobi anda checkbox -->
+      <label >Hobi : </label>
       <input type="checkbox" name="hobi" checked>
       <label >Mendesain</label>
+      <input type="checkbox" name="hobi" >
+      <label >Baca Buku</label>
       <input type="checkbox" name="hobi">
-      <label >Coding</label> <br>
-      <!-- pilih select asal kota -->
-      <label >Asal Kota : </label>
-      <select name="asal_kota">
-        <option value="Kota Kembang">
-          Bandung
-        </option>
-        <option value="Kota Tahu">
-          Sumedang
-        </option>
-        <option value="Kota Batik" selected>
-          Pekalongan
-        </option>
+      <label >Mengoding</label> <br>
+      <!-- pilih select asal kota  -->
+      <label >Asal Kota :</label>
+      <select name="asal_kota" >
+          <option value="Kota Kembang">
+            Bandung
+          </option>
+          <option value="Kota Tahu" >
+            Sumedang
+          </option>
+          <option value="Kota Batik" selected>
+            Pekalongan
+          </option>
       </select> <br>
       <!-- Tambahkan Komentar -->
-      <label >Komentar : </label>
+      <label >Tambahkan Komentar : </label>
       <textarea name="komentar" 
-       cols="20" rows="5">
-       Ayo Cerita Apa Yang Ada Di Dalam Hati Anda...
-      </textarea> <br>
-      <input style="background: blue; 
-                    color: white;" 
-       type="submit" value="Lanjutkan!">
+         cols="20" rows="5">
+         Ayo Ceritakan Apa Yang Ada Di Dalam
+         Hati Anda.... HAAHAAHAHAH
+    </textarea> <br>
+    <input style="background: blue; 
+    color: white; border-radius: 10px;" 
+    type="submit" value="Lanjutkan">
     </form>
-  </body>
+</body>
 </html>
